@@ -52,8 +52,8 @@ $ webpack
 如果你现在还没准备要使用npm,你可以下载这个已经包含了预构建的 React 和 React DOM 拷贝的入门套件. 
 
 <div class="buttons-unit downloads">
-  <a href="/react/downloads/react-{{site.react_version}}.zip" class="button">
-    下载入门套件 {{site.react_version}}
+  <a href="/react/downloads/react-0.14.7.zip" class="button">
+    下载入门套件 0.14.7
   </a>
 </div>
 

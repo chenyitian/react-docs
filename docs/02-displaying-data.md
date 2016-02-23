@@ -18,8 +18,8 @@ next: jsx-in-depth-zh-CN.html
   <head>
     <meta charset="UTF-8" />
     <title>Hello React</title>
-    <script src="https://fb.me/react-{{site.react_version}}.js"></script>
-    <script src="https://fb.me/react-dom-{{site.react_version}}.js"></script>
+    <script src="https://fb.me/react-0.14.7.js"></script>
+    <script src="https://fb.me/react-dom-0.14.7.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
   </head>
   <body>
