@@ -1,11 +1,4 @@
----
-id: communicate-between-components
-title: Communicate Between Components
-layout: tips
-permalink: communicate-between-components.html
-prev: false-in-jsx.html
-next: expose-component-functions.html
----
+# Communicate Between Components
 
 For parent-child communication, simply [pass props](/react/docs/multiple-components.html).
 

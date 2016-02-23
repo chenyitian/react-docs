@@ -1,9 +1,4 @@
----
-id: glossary-zh-CN
-title: React (虚拟) DOM 术语
-permalink: glossary-zh-CN.html
-prev: webcomponents-zh-CN.html
----
+# React (虚拟) DOM 术语
 
 在 React 的术语中,有五个要重点区分的核心类型:
 

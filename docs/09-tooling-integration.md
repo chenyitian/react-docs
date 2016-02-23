@@ -1,10 +1,4 @@
----
-id: tooling-integration-zh-CN
-title: 工具集成
-permalink: tooling-integration-zh-CN.html
-prev: more-about-refs-zh-CN.html
-next: addons-zh-CN.html
----
+# 工具集成
 
 每个项目使用一个不同的系统来建立和部署JavaScript.我们努力使React尽可能环境无关。
 

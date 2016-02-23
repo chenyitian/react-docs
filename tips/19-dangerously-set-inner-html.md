@@ -1,10 +1,4 @@
----
-id: dangerously-set-inner-html
-title: Dangerously Set innerHTML
-layout: tips
-permalink: dangerously-set-inner-html.html
-prev: children-undefined.html
----
+# Dangerously Set innerHTML
 
 Improper use of the `innerHTML` can open you up to a [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) attack.  Sanitizing user input for display is notoriously error-prone, and failure to properly sanitize is one of the [leading causes of web vulnerabilities](https://owasptop10.googlecode.com/files/OWASP%20Top%2010%20-%202013.pdf) on the internet.
 

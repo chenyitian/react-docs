@@ -1,10 +1,4 @@
----
-id: introduction
-title: Introduction
-layout: tips
-permalink: introduction.html
-next: inline-styles.html
----
+# Introduction
 
 The React tips section provides bite-sized information that can answer lots of questions you might have and warn you against common pitfalls.
 

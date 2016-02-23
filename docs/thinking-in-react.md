@@ -1,10 +1,4 @@
----
-id: thinking-in-react-zh-CN
-title: React 编程思想
-prev: tutorial-zh-CN.html
-next: conferences-zh-CN.html
-redirect_from: 'blog/2013/11/05/thinking-in-react.html'
----
+# React 编程思想
 
 by Pete Hunt
 
@@ -75,7 +69,7 @@ React 许多优秀的部分之一，是它使得你在构建 app 的过程中不
 
 ### 小插曲: props vs state
 
-在React里有两种数据 "模型": props 和 state。明白这二者之间的区别是很重要的；如果你不是很确定它们之间的区别，请概览[React官方文档](/react/docs/interactivity-and-dynamic-uis-zh-CN.html)
+在React里有两种数据 "模型": props 和 state。明白这二者之间的区别是很重要的；如果你不是很确定它们之间的区别，请概览[React官方文档](/react/docs/interactivity-and-dynamic-uis.html)
 
 ## 第三步：确定最小（但完备）的 UI state 表达
 

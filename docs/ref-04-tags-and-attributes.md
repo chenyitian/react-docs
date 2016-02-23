@@ -1,10 +1,4 @@
----
-id: tags-and-attributes-zh-CN
-title: Tags和属性
-permalink: tags-and-attributes-zh-CN.html
-prev: component-specs-zh-CN.html
-next: events-zh-CN.html
----
+# Tags和属性
 
 ## 支持的Tags
 

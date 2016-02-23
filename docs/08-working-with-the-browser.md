@@ -1,10 +1,4 @@
----
-id: working-with-the-browser-zh-CN
-title: 与浏览器协作
-permalink: working-with-the-browser-zh-CN.html
-prev: forms-zh-CN.html
-next: more-about-refs-zh-CN.html
----
+# 与浏览器协作
 
 React提供了强大的抽象机制使你在大多数情况下免于直接接触DOM，但有时你仅仅只需要访问底层API，也许是为了与第三方库或者已有的代码协作。
 
@@ -18,7 +12,7 @@ React非常快速是因为它从不直接操作DOM。React维持了一个快速�
 
 ## Refs 和 findDOMNode()
 
-为了与浏览器互动，你需要一个指向DOM node的引用。你可以连接一个 `ref` 到任何的元素，这允许你引用 组件的 **backing instance**  。它很有用，如果你需要在组件上调用命令式函数，或者想访问底层的DOM节点。要了解很多关于 refs，包括更有效使用他们的方法，请查看我们的 [关于Refs的更多内容](/react/docs/more-about-refs-zh-CN.html) 文档。
+为了与浏览器互动，你需要一个指向DOM node的引用。你可以连接一个 `ref` 到任何的元素，这允许你引用 组件的 **backing instance**  。它很有用，如果你需要在组件上调用命令式函数，或者想访问底层的DOM节点。要了解很多关于 refs，包括更有效使用他们的方法，请查看我们的 [关于Refs的更多内容](/react/docs/more-about-refs.html) 文档。
 
 ## 组件的生命周期
 

@@ -1,14 +1,8 @@
----
-id: transferring-props-zh-CN
-title: 传递 Props
-permalink: transferring-props-zh-CN.html
-prev: reusable-components-zh-CN.html
-next: forms-zh-CN.html
----
+# 传递 Props
 
 React 里有一个非常常用的模式就是对组件做一层抽象。组件对外公开一个简单的属性（Props）来实现功能，但内部细节可能有非常复杂的实现。
 
-可以使用 [JSX 展开属性](/react/docs/jsx-spread-zh-CN.html) 来合并现有的 props 和其它值：
+可以使用 [JSX 展开属性](/react/docs/jsx-spread.html) 来合并现有的 props 和其它值：
 
 ```javascript
 <Component {...this.props} more="values" />

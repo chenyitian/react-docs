@@ -1,10 +1,4 @@
----
-id: events-zh-CN
-title: 事件系统
-permalink: events-zh-CN.html
-prev: tags-and-attributes-zh-CN.html
-next: dom-differences-zh-CN.html
----
+# 事件系统
 
 ## 合成事件
 
@@ -147,7 +141,7 @@ DOMEventTarget relatedTarget
 onChange onInput onSubmit
 ```
 
-关于 `onChange` 事件的更多信息，参见 [表单组件](/react/docs/forms-zh-CN.html)。
+关于 `onChange` 事件的更多信息，参见 [表单组件](/react/docs/forms.html)。
 
 
 ### 鼠标事件

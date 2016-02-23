@@ -1,10 +1,4 @@
----
-id: dom-differences-zh-CN
-title: DOM 的不同之处
-permalink: dom-differences-zh-CN.html
-prev: events-zh-CN.html
-next: special-non-dom-attributes-zh-CN.html
----
+# DOM 的不同之处
 
 React 实现了一个浏览器无关的 事件和DOM 系统,原因是为了性能和跨浏览器的兼容性.我们利用这个机会来清理了一些浏览器DOM实现的一些粗糙边缘.
 

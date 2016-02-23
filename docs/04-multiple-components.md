@@ -1,10 +1,4 @@
----
-id: multiple-components-zh-CN
-title: 复合组件
-permalink: multiple-components-zh-CN.html
-prev: interactivity-and-dynamic-uis-zh-CN.html
-next: reusable-components-zh-CN.html
----
+# 复合组件
 
 目前为止，我们已经学了如何用单个组件来展示数据和处理用户输入。下一步让我们来体验 React 最激动人心的特性之一：可组合性（composability）。
 

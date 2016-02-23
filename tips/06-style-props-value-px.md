@@ -1,11 +1,4 @@
----
-id: style-props-value-px
-title: Shorthand for Specifying Pixel Values in style props
-layout: tips
-permalink: style-props-value-px.html
-prev: maximum-number-of-jsx-root-nodes.html
-next: children-props-type.html
----
+# Shorthand for Specifying Pixel Values in style props
 
 When specifying a pixel value for your inline `style` prop, React automatically appends the string "px" for you after your number value, so this works:
 

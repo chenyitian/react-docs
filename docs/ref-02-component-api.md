@@ -1,14 +1,8 @@
----
-id: component-api-zh-CN
-title: 组件 API
-permalink: component-api-zh-CN.html
-prev: top-level-api-zh-CN.html
-next: component-specs-zh-CN.html
----
+# 组件 API
 
 ## React.Component
 
-当渲染时，React 组件的实例在 React 内部被创建。这些实例在随后的渲染中被重复使用，并可以在组件方法中通过 `this` 访问。唯一的在 React 之外获取 React 组件实例句柄的方法是保存 `ReactDOM.render` 的返回值。在其它组件内，你可以使用 [refs](/react/docs/more-about-refs-zh-CN.html) 得到相同的结果。
+当渲染时，React 组件的实例在 React 内部被创建。这些实例在随后的渲染中被重复使用，并可以在组件方法中通过 `this` 访问。唯一的在 React 之外获取 React 组件实例句柄的方法是保存 `ReactDOM.render` 的返回值。在其它组件内，你可以使用 [refs](/react/docs/more-about-refs.html) 得到相同的结果。
 
 
 ### setState
@@ -91,7 +85,7 @@ DOMElement getDOMNode()
 
 > Note:
 >
-> getDOMNode 被废弃了，已经被 [ReactDOM.findDOMNode()] 替换(/react/docs/top-level-api-zh-CN.html#reactdom.finddomnode).
+> getDOMNode 被废弃了，已经被 [ReactDOM.findDOMNode()] 替换(/react/docs/top-level-api.html#reactdom.finddomnode).
 >
 > 这个方法在从 `React.Component` 扩展的 ES6 `class` 组件里不可用。它也许会在未来的 React 版本中被完全移除。
 

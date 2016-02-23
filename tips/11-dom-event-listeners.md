@@ -1,11 +1,4 @@
----
-id: dom-event-listeners
-title: DOM Event Listeners in a Component
-layout: tips
-permalink: dom-event-listeners.html
-prev: props-in-getInitialState-as-anti-pattern.html
-next: initial-ajax.html
----
+# DOM Event Listeners in a Component
 
 > Note:
 >

@@ -1,11 +1,4 @@
----
-id: initial-ajax
-title: Load Initial Data via AJAX
-layout: tips
-permalink: initial-ajax.html
-prev: dom-event-listeners.html
-next: false-in-jsx.html
----
+# Load Initial Data via AJAX
 
 Fetch data in `componentDidMount`. When the response arrives, store the data in state, triggering a render to update your UI.
 

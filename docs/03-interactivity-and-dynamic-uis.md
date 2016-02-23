@@ -1,12 +1,6 @@
----
-id: interactivity-and-dynamic-uis-zh-CN
-title: 动态交互式用户界面
-permalink: interactivity-and-dynamic-uis-zh-CN.html
-prev: jsx-gotchas-zh-CN.html
-next: multiple-components-zh-CN.html
----
+# 动态交互式用户界面
 
-我们已经学习如何使用 React [显示数据](/react/docs/displaying-data-zh-CN.html)。现在让我们来学习如何创建交互式界面。
+我们已经学习如何使用 React [显示数据](/react/docs/displaying-data.html)。现在让我们来学习如何创建交互式界面。
 
 ## 简单例子
 

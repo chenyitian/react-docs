@@ -1,10 +1,4 @@
----
-id: webcomponents
-title: Web Components
-permalink: webcomponents.html
-prev: reconciliation.html
-next: glossary.html
----
+# Web Components
 
 Trying to compare and contrast React with WebComponents inevitably results in specious conclusions, because the two libraries are built to solve different problems.  WebComponents provide strong encapsulation for reusable components, while React provides a declarative library that keeps the DOM in sync with your data.  The two goals are complementary; engineers can mix-and-match the technologies.  As a developer, you are free to use React in your WebComponents, or to use WebComponents in React, or both.
 

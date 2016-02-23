@@ -1,11 +1,4 @@
----
-id: children-undefined
-title: this.props.children undefined
-layout: tips
-permalink: children-undefined.html
-prev: expose-component-functions.html
-next: use-react-with-other-libraries.html
----
+# this.props.children undefined
 
 You can't access the children of your component through `this.props.children`. `this.props.children` designates the children being **passed onto you** by the owner:
 

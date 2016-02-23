@@ -1,10 +1,4 @@
----
-id: reusable-components-zh-CN
-title: 可复用组件
-permalink: reusable-components-zh-CN.html
-prev: multiple-components-zh-CN.html
-next: transferring-props-zh-CN.html
----
+# 可复用组件
 
 设计接口的时候，把通用的设计元素（按钮，表单框，布局组件等）拆成接口良好定义的可复用的组件。这样，下次开发相同界面程序时就可以写更少的代码，也意义着更高的开发效率，更少的 Bug 和更少的程序体积。
 

@@ -1,10 +1,4 @@
----
-id: top-level-api-zh-CN
-title: Top-Level API
-permalink: top-level-api-zh-CN.html
-next: component-api-zh-CN.html
-redirect_from: "/docs/reference-zh-CN.html"
----
+# Top-Level API
 
 ## React
 
@@ -17,7 +11,7 @@ redirect_from: "/docs/reference-zh-CN.html"
 class Component
 ```
 
-当使用ES6 类定义时，React.Component是 React 组件的基类。如何在React中使用 ES6 class 请参见 [可重用组件](/react/docs/reusable-components-zh-CN.html#es6-classes)。基类实际提供了哪些方法 请参见 [组件 API](/react/docs/component-api-zh-CN.html).
+当使用ES6 类定义时，React.Component是 React 组件的基类。如何在React中使用 ES6 class 请参见 [可重用组件](/react/docs/reusable-components.html#es6-classes)。基类实际提供了哪些方法 请参见 [组件 API](/react/docs/component-api.html).
 
 
 ### React.createClass
@@ -28,7 +22,7 @@ ReactClass createClass(object specification)
 
 给定一份规格（specification），创建一个组件类。组件通常要实现一个 `render()` 方法，它返回 **单个的** 子级。该子级可能包含任意深度的子级结构。组件与标准原型类的不同之处在于，你不需要对它们调用 new。  它们是为你在后台构造实例（通过 new）的便利的包装器。
 
-更多关于规格对象（specification object）的信息，请见 [组件规格和生命周期](/react/docs/component-specs-zh-CN.html) 。
+更多关于规格对象（specification object）的信息，请见 [组件规格和生命周期](/react/docs/component-specs.html) 。
 
 
 ### React.createElement
@@ -85,7 +79,7 @@ boolean isValidElement(* object)
 
 ### React.PropTypes
 
-`React.PropTypes` 包含了能与 组件的`propTypes` 对象一起使用的类型，用以验证传入你的组件的 props。更多有关 `propTypes` 的信息，请见 [可重用组件](/react/docs/reusable-components-zh-CN.html)。
+`React.PropTypes` 包含了能与 组件的`propTypes` 对象一起使用的类型，用以验证传入你的组件的 props。更多有关 `propTypes` 的信息，请见 [可重用组件](/react/docs/reusable-components.html)。
 
 
 ### React.Children

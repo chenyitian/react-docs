@@ -1,11 +1,4 @@
----
-id: children-props-type
-title: Type of the Children props
-layout: tips
-permalink: children-props-type.html
-prev: style-props-value-px.html
-next: controlled-input-null-value.html
----
+# Type of the Children props
 
 Usually, a component's children (`this.props.children`) is an array of components:
 

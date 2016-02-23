@@ -1,11 +1,4 @@
----
-id: false-in-jsx
-title: False in JSX
-layout: tips
-permalink: false-in-jsx.html
-prev: initial-ajax.html
-next: communicate-between-components.html
----
+# False in JSX
 
 Here's how `false` renders in different situations:
 

@@ -1,11 +1,4 @@
----
-id: componentWillReceiveProps-not-triggered-after-mounting
-title: componentWillReceiveProps Not Triggered After Mounting
-layout: tips
-permalink: componentWillReceiveProps-not-triggered-after-mounting.html
-prev: controlled-input-null-value.html
-next: props-in-getInitialState-as-anti-pattern.html
----
+# componentWillReceiveProps Not Triggered After Mounting
 
 `componentWillReceiveProps` isn't triggered after the node is put on scene. This is by design. Check out [other lifecycle methods](/react/docs/component-specs.html) for the one that suits your needs.
 
