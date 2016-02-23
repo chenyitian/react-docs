@@ -10,7 +10,7 @@ React 许多优秀的部分之一，是它使得你在构建 app 的过程中不
 
 想象我们已经有个一个 JSON API 和一个来自设计师的模型。我们的设计师显然做得不够好，因为模型看起来像这样：
 
-![Mockup](/img/blog/thinking-in-react-mock.png)
+![Mockup](/master/img/blog/thinking-in-react-mock.png)
 
 
 我们的 JSON API 返回一些看起来像这样的数据：
