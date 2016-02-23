@@ -1,10 +1,4 @@
----
-id: getting-started-zh-CN
-title: 入门教程
-permalink: getting-started-zh-CN.html
-next: tutorial-zh-CN.html
-redirect_from: "docs/index-zh-CN.html"
----
+# 入门教程
 
 ## JSFiddle
 
