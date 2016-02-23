@@ -90,7 +90,7 @@ ReactDOM.render(
 
 然后在 `helloworld.html` 引用该文件：
 
-```html{10}
+```html
 <script type="text/babel" src="src/helloworld.js"></script>
 ```
 
@@ -117,7 +117,7 @@ babel --presets react src --watch --out-dir build
 
 `build/helloworld.js` 会在你对文件进行修改时自动生成。 阅读 [Babel CLI 文档](http://babeljs.io/docs/usage/cli/) 了解高级用法。
 
-```javascript{2}
+```javascript
 ReactDOM.render(
   React.createElement('h1', null, 'Hello, world!'),
   document.getElementById('example')
@@ -126,7 +126,7 @@ ReactDOM.render(
 
 对照下面更新你的 HTML 代码
 
-```html{8,12}
+```html
 <!DOCTYPE html>
 <html>
   <head>
