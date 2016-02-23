@@ -10,7 +10,7 @@ React 许多优秀的部分之一，是它使得你在构建 app 的过程中不
 
 想象我们已经有个一个 JSON API 和一个来自设计师的模型。我们的设计师显然做得不够好，因为模型看起来像这样：
 
-![Mockup](/master/img/blog/thinking-in-react-mock.png)
+![Mockup](../img/blog/thinking-in-react-mock.png)
 
 
 我们的 JSON API 返回一些看起来像这样的数据：
@@ -34,7 +34,7 @@ React 许多优秀的部分之一，是它使得你在构建 app 的过程中不
 
 既然你频繁显示一个 JSON 的数据模型给用户，你会发现，如果你的模型构建正确，你的 UI（因此也有你的组件结构）就将映射良好。那是因为 UI 和数据模型趋向附着于相同的 *信息架构*，这意味着，把你的 UI 分离为组件的工作通常是琐碎的，只需把 UI 拆分成能准确对应数据模型的每块组件。
 
-![Component diagram](/img/blog/thinking-in-react-components.png)
+![Component diagram](../img/blog/thinking-in-react-components.png)
 
 在这里你会看到，在我们的简单 APP 里有五个组件。我用斜体表示每个组件的数据。
 
@@ -70,7 +70,7 @@ React 许多优秀的部分之一，是它使得你在构建 app 的过程中不
 
 ### 小插曲: props vs state
 
-在React里有两种数据 "模型": props 和 state。明白这二者之间的区别是很重要的；如果你不是很确定它们之间的区别，请概览[React官方文档](/react/docs/interactivity-and-dynamic-uis.html)
+在React里有两种数据 "模型": props 和 state。明白这二者之间的区别是很重要的；如果你不是很确定它们之间的区别，请概览[React官方文档](interactivity-and-dynamic-uis.md)
 
 ## 第三步：确定最小（但完备）的 UI state 表达
 
