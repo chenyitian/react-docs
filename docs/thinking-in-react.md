@@ -70,7 +70,7 @@ React 许多优秀的部分之一，是它使得你在构建 app 的过程中不
 
 ### 小插曲: props vs state
 
-在React里有两种数据 "模型": props 和 state。明白这二者之间的区别是很重要的；如果你不是很确定它们之间的区别，请概览[React官方文档](./interactivity-and-dynamic-uis.md)
+在React里有两种数据 "模型": props 和 state。明白这二者之间的区别是很重要的；如果你不是很确定它们之间的区别，请概览[React官方文档](./03-interactivity-and-dynamic-uis.md)
 
 ## 第三步：确定最小（但完备）的 UI state 表达
 
