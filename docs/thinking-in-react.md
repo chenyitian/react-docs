@@ -66,11 +66,11 @@ React 许多优秀的部分之一，是它使得你在构建 app 的过程中不
 
 在这一步的最后，你会获得一个渲染数据模型的可重用组件库。这些组件只有 `render()` 方法，因为这是一个静态版本。在层级顶端的组件 (`FilterableProductTable`) 将会接受你的数据模型，并将其作为一个prop。如果你改变了底层数据模型，并且再次调用 `React.render()` ，UI 将会更新。你可以很容易地看到 UI 是如何更新的，以及哪里变动了，因为这没什么复杂的。React的 **单向数据流** (也被称为 *单向绑定*)使一切保持了模块化和快速。
 
-如果你在执行这步时需要帮助，请参阅 [React 文档](/react/docs/)。
+如果你在执行这步时需要帮助，请参阅 [React 文档](./docs/)。
 
 ### 小插曲: props vs state
 
-在React里有两种数据 "模型": props 和 state。明白这二者之间的区别是很重要的；如果你不是很确定它们之间的区别，请概览[React官方文档](./03-interactivity-and-dynamic-uis.md)
+在React里有两种数据 "模型": props 和 state。明白这二者之间的区别是很重要的；如果你不是很确定它们之间的区别，请概览 [React官方文档](./03-interactivity-and-dynamic-uis.md)
 
 ## 第三步：确定最小（但完备）的 UI state 表达
 
