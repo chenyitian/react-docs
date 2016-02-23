@@ -1,10 +1,4 @@
----
-id: conferences-zh-CN
-title: 会议
-permalink: conferences-zh-CN.html
-prev: thinking-in-react-zh-CN.html
-next: videos-zh-CN.html
----
+# 会议
 
 ### React.js Conf 2015
 一月 28 & 29

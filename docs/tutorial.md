@@ -1,9 +1,4 @@
----
-id: tutorial-zh-CN
-title: 教程
-prev: getting-started-zh-CN.html
-next: thinking-in-react-zh-CN.html
----
+# 教程
 
 我们将建立一个你可以放进博客的简单却真实的评论框，一个 Disqus、LiveFyre 或 Facebook comments 提供的实时评论的基础版本。
 
