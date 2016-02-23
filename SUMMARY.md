@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * QUICK START
-   * [Introduction](README.md)
+   * [入门教程](docs/getting-started.md)
 
