@@ -29,7 +29,7 @@ $ npm install --save react react-dom babelify babel-preset-react
 $ browserify -t [ babelify --presets [ react ] ] main.js -o bundle.js
 ```
 
-要用webpack安装React DOM和构建你的包:  
+要用webpack安装React DOM和构建你的包：  
 
 ```sh
 $ npm install --save react react-dom babel-preset-react
