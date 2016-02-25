@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [React中文文档](README.md)
 * 快速开始
   * [新手入门](docs/getting-started.md)
   * [教程](docs/tutorial.md)
