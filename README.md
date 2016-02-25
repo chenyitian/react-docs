@@ -1,4 +1,4 @@
-# [React](https://facebook.github.io/react/
+# [React](https://facebook.github.io/react/)
 React是用于构建用户界面的JAVASCRIPT库。
 
 * **仅仅是UI：**许多人使用React作为MVC架构的V层。尽管React并没有假设过你的其余技术栈，但它仍可以作为一个小特征轻易地在已有项目中使用。
