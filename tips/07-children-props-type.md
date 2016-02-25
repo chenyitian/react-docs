@@ -39,4 +39,4 @@ var GenericWrapper = React.createClass({
 ReactDOM.render(<GenericWrapper>hello</GenericWrapper>, mountNode);
 ```
 
-To make `this.props.children` easy to deal with, we've provided the [React.Children utilities](/react/docs/top-level-api.html#react.children).
+To make `this.props.children` easy to deal with, we've provided the [React.Children utilities](../docs/ref-01-top-level-api.md#react.children).

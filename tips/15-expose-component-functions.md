@@ -1,6 +1,6 @@
 # Expose Component Functions
 
-There's another (uncommon) way of [communicating between components](/react/tips/communicate-between-components.html): simply expose a method on the child component for the parent to call.
+There's another (uncommon) way of [communicating between components](14-communicate-between-components.md): simply expose a method on the child component for the parent to call.
 
 Say a list of todos, which upon clicking get removed. If there's only one unfinished todo left, animate it:
 

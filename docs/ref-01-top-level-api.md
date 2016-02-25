@@ -11,7 +11,7 @@
 class Component
 ```
 
-当使用ES6 类定义时，React.Component是 React 组件的基类。如何在React中使用 ES6 class 请参见 [可重用组件](/react/docs/reusable-components.html#es6-classes)。基类实际提供了哪些方法 请参见 [组件 API](/react/docs/component-api.html).
+当使用ES6 类定义时，React.Component是 React 组件的基类。如何在React中使用 ES6 class 请参见 [可重用组件](05-reusable-components.md#es6-classes)。基类实际提供了哪些方法 请参见 [组件 API](ref-02-component-api.md).
 
 
 ### React.createClass
@@ -22,7 +22,7 @@ ReactClass createClass(object specification)
 
 给定一份规格（specification），创建一个组件类。组件通常要实现一个 `render()` 方法，它返回 **单个的** 子级。该子级可能包含任意深度的子级结构。组件与标准原型类的不同之处在于，你不需要对它们调用 new。  它们是为你在后台构造实例（通过 new）的便利的包装器。
 
-更多关于规格对象（specification object）的信息，请见 [组件规格和生命周期](/react/docs/component-specs.html) 。
+更多关于规格对象（specification object）的信息，请见 [组件规格和生命周期](ref-03-component-specs.md) 。
 
 
 ### React.createElement
@@ -49,7 +49,7 @@ ReactElement cloneElement(
 )
 ```
 
-使用 `element` 作为起点，克隆并返回一个新的 `ReactElement` 。生成的 element 将会拥有原始 element 的 props 与新的 props 的浅合并。新的子级将会替换现存的子级。 不同于 `React.addons.cloneWithProps`，来自原始 element 的 `key` 和 `ref` 将会保留。对于合并任何 props 没有特别的行为（不同于 `cloneWithProps`）。更多细节详见[v0.13 RC2 blog post](/react/blog/2015/03/03/react-v0.13-rc2.html) 。
+使用 `element` 作为起点，克隆并返回一个新的 `ReactElement` 。生成的 element 将会拥有原始 element 的 props 与新的 props 的浅合并。新的子级将会替换现存的子级。 不同于 `React.addons.cloneWithProps`，来自原始 element 的 `key` 和 `ref` 将会保留。对于合并任何 props 没有特别的行为（不同于 `cloneWithProps`）。更多细节详见[v0.13 RC2 blog post](http://facebook.github.io/react/blog/2015/03/03/react-v0.13-rc2.html) 。
 
 
 ### React.createFactory
@@ -79,7 +79,7 @@ boolean isValidElement(* object)
 
 ### React.PropTypes
 
-`React.PropTypes` 包含了能与 组件的`propTypes` 对象一起使用的类型，用以验证传入你的组件的 props。更多有关 `propTypes` 的信息，请见 [可重用组件](/react/docs/reusable-components.html)。
+`React.PropTypes` 包含了能与 组件的`propTypes` 对象一起使用的类型，用以验证传入你的组件的 props。更多有关 `propTypes` 的信息，请见 [可重用组件](05-reusable-components.md)。
 
 
 ### React.Children
@@ -140,7 +140,7 @@ ReactComponent render(
 )
 ```
 
-渲染一个 ReactElement 到 DOM 里提供的 `容器（container）`中，并返回一个对 组件(或者返回 `null` 对于 [无状态组件](/react/docs/reusable-components.html#stateless-functions)) 的[引用](/react/docs/more-about-refs.html) 
+渲染一个 ReactElement 到 DOM 里提供的 `容器（container）`中，并返回一个对 组件(或者返回 `null` 对于 [无状态组件](05-reusable-components.md#stateless-functions)) 的[引用](08.1-more-about-refs.md) 
 
 如果 ReactElement 之前被渲染到了 `container` 中，这将对它执行一次更新，并仅变动需要变动的 DOM 来反映最新的 React 组件。
 

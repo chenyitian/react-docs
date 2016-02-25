@@ -39,7 +39,7 @@ React支持所有的 `data-*` 和 `aria-*` 以及下列的属性.
 >
 > 所有的属性都是 camel-cased ,`class` 和 `for` 分别是 `className` 和 `htmlFor`,来符合DOM API 规范.
 
-关于事件的列表,见 [Supported Events](/react/docs/events.html).
+关于事件的列表,见 [Supported Events](ref-05-events.md).
 
 ### HTML 属性
 
@@ -68,7 +68,7 @@ type useMap value width wmode wrap
 - `unselectable` for Internet Explorer.
 - `results autoSave` for WebKit/Blink input fields of type `search`.
 
-同样有React规范的属性 `dangerouslySetInnerHTML` ([more here](/react/docs/special-non-dom-attributes.html)),用于直接插入HTML字符串到组件里.
+同样有React规范的属性 `dangerouslySetInnerHTML` ([more here](ref-07-special-non-dom-attributes.md)),用于直接插入HTML字符串到组件里.
 
 ### SVG 属性
 

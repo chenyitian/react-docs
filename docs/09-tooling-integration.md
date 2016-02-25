@@ -6,7 +6,7 @@
 
 ### CDN-hosted React
 
-我们提供了CDN-hosted版本的React[在我们的下载页面](/react/downloads.html).这些预构建的文件使用UMD模块格式。将他们放进一个简单的`<script>` 标签将会注入一个`React` 全局变量到你的环境里。这也同样在CommonJS 和 AMD 环境里开箱即用。
+我们提供了CDN-hosted版本的React[在我们的下载页面](http://facebook.github.io/react/downloads.html).这些预构建的文件使用UMD模块格式。将他们放进一个简单的`<script>` 标签将会注入一个`React` 全局变量到你的环境里。这也同样在CommonJS 和 AMD 环境里开箱即用。
 
 ### 使用 master
 

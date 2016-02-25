@@ -6,7 +6,7 @@
 
 > 注意:
 > 
-> 同样可以使用单纯的 JavaScript 类作为组件类. 这些类可以实现大多数相同的方法,虽然有一些不同.更多关于不同的信息,请阅读我们关于[ES6 classes](/react/docs/reusable-components.html#es6-classes)的文档.
+> 同样可以使用单纯的 JavaScript 类作为组件类. 这些类可以实现大多数相同的方法,虽然有一些不同.更多关于不同的信息,请阅读我们关于[ES6 classes](05-reusable-components.md#es6-classes)的文档.
 
 ### render
 
@@ -49,7 +49,7 @@ object getDefaultProps()
 object propTypes
 ```
 
- `propTypes` 对象允许你验证传递到你的组建的 props.更多关于 `propTypes` 的信息,见 [Reusable Components](/react/docs/reusable-components.html).
+ `propTypes` 对象允许你验证传递到你的组建的 props.更多关于 `propTypes` 的信息,见 [Reusable Components](05-reusable-components.md).
 
 
 ### mixins
@@ -58,7 +58,7 @@ object propTypes
 array mixins
 ```
 
- `mixins` 数组允许你用 mixins 来在多个组件间共享行为.更多关于 mixins 的信息,见 [Reusable Components](/react/docs/reusable-components.html).
+ `mixins` 数组允许你用 mixins 来在多个组件间共享行为.更多关于 mixins 的信息,见 [Reusable Components](05-reusable-components.md).
 
 
 ### statics
@@ -92,7 +92,7 @@ MyComponent.customMethod('bar');  // true
 string displayName
 ```
 
-`displayName` 字符串被用在调试信息.JSX 自动设置这个值；见 [JSX in Depth](/react/docs/jsx-in-depth.html#the-transform).
+`displayName` 字符串被用在调试信息.JSX 自动设置这个值；见 [JSX in Depth](02.1-jsx-in-depth.md#the-transform).
 
 
 ## Lifecycle Methods

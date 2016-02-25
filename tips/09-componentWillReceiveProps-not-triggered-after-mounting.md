@@ -1,5 +1,5 @@
 # componentWillReceiveProps Not Triggered After Mounting
 
-`componentWillReceiveProps` isn't triggered after the node is put on scene. This is by design. Check out [other lifecycle methods](/react/docs/component-specs.html) for the one that suits your needs.
+`componentWillReceiveProps` isn't triggered after the node is put on scene. This is by design. Check out [other lifecycle methods](../docs/ref-03-component-specs.md) for the one that suits your needs.
 
 The reason for that is because `componentWillReceiveProps` often handles the logic of comparing with the old props and acting upon changes; not triggering it at mounting (where there are no old props) helps in defining what the method does.

@@ -22,6 +22,6 @@ React挑战了很多传统的知识，第一眼看上去可能很多想法有点
 
 ## 了解更多
 
-你可以从这篇[博客](/react/blog/2013/06/05/why-react.html)了解更多我们创造 React 的动机。
+你可以从这篇[博客](http://facebook.github.io/react/blog/2013/06/05/why-react.html)了解更多我们创造 React 的动机。
 
 

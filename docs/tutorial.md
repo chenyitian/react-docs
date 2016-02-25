@@ -110,7 +110,7 @@ ReactDOM.render(
 );
 ```
 
-它的使用是可选的，但是我们发现 JSX 语法比单纯的 JavaScript 更加容易使用。阅读更多关于[JSX 语法的文章](/react/docs/jsx-in-depth.html)。
+它的使用是可选的，但是我们发现 JSX 语法比单纯的 JavaScript 更加容易使用。阅读更多关于[JSX 语法的文章](02.1-jsx-in-depth.md)。
 
 #### What's going on
 
@@ -707,4 +707,4 @@ var CommentBox = React.createClass({
 
 ### 祝贺!
 
-你刚刚通过几个简单的步骤建立了一个评论框。学习更多关于[为什么使用 React](/react/docs/why-react.html), 或者深入 [API 参考](/react/docs/top-level-api.html) 开始钻研！祝你好运！
+你刚刚通过几个简单的步骤建立了一个评论框。学习更多关于[为什么使用 React](01-why-react.md), 或者深入 [API 参考](ref-01-top-level-api.md) 开始钻研！祝你好运！

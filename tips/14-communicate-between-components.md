@@ -1,6 +1,6 @@
 # Communicate Between Components
 
-For parent-child communication, simply [pass props](/react/docs/multiple-components.html).
+For parent-child communication, simply [pass props](../docs/04-multiple-components.md).
 
 For child-parent communication:
 Say your `GroceryList` component has a list of items generated through an array. When a list item is clicked, you want to display its name:

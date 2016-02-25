@@ -46,5 +46,5 @@ document.registerElement('x-search', {prototype: proto});
 
 ## Complete Example
 
-Check out the `webcomponents` example in the [starter kit](/react/downloads.html) for a complete example.
+Check out the `webcomponents` example in the [starter kit](http://facebook.github.io/react/downloads.html) for a complete example.
 

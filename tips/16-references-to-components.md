@@ -1,3 +1,3 @@
 # References to Components
 
-This page has moved to: [refs](/react/docs/more-about-refs.html).
+This page has moved to: [refs](../docs/08.1-more-about-refs.md).

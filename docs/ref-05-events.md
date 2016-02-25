@@ -141,7 +141,7 @@ DOMEventTarget relatedTarget
 onChange onInput onSubmit
 ```
 
-关于 `onChange` 事件的更多信息，参见 [表单组件](/react/docs/forms.html)。
+关于 `onChange` 事件的更多信息，参见 [表单组件](07-forms.md)。
 
 
 ### 鼠标事件
