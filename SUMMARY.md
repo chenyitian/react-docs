@@ -1,16 +1,16 @@
 # Summary
 
 * [React](README.md)
-* [快速开始](#)
+* [快速开始]
   * [新手入门](docs/getting-started.md)
   * [教程](docs/tutorial.md)
   * [React 编程思想](docs/thinking-in-react.md)
-* [社区资源](#)
+* [社区资源]
   * [会议](docs/conferences.md)
   * [视频](docs/videos.md)
   * [补充工具](docs/complementary-tools.md)
   * [示例](docs/examples.md)
-* [手册](#)
+* [手册]
   * [为什么使用 React?](docs/01-why-react.md)
   * [显示数据](docs/02-displaying-data.md)
       * [深入 JSX](docs/02.1-jsx-in-depth.md)
@@ -37,7 +37,7 @@
     * [浅比较](docs/10.10-shallow-compare.md)
   * [Advanced Performance](docs/11-advanced-performance.md)
   * [Context](docs/12-context.md)
-* [参考](#)
+* [参考]
   * [Top-Level API](docs/ref-01-top-level-api.md)
   * [组件 API](docs/ref-02-component-api.md)
   * [组件的规范和生命周期](docs/ref-03-component-specs.md)
@@ -48,10 +48,10 @@
   * [Reconciliation](docs/ref-08-reconciliation.md)
   * [Web Components](docs/ref-09-webcomponents.md)
   * [React (虚拟) DOM 术语](docs/ref-10-glossary.md)
-* [FLUX](#)
+* [FLUX]
   * [概览](docs/flux-overview.md)
   * [TodoMVC 教程](docs/flux-todo-list.md)
-* [TIPS](#)
+* [TIPS]
   * [Introduction](tips/01-introduction.md)
   * [Inline Styles](tips/02-inline-styles.md)
   * [If-Else in JSX](tips/03-if-else-in-JSX.md)
