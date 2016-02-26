@@ -1,6 +1,6 @@
 # DOM的不同之处
 
-React 实现了一个浏览器无关的 事件和DOM 系统,原因是为了性能和跨浏览器的兼容性.我们利用这个机会来清理了一些浏览器DOM实现的一些粗糙边缘.
+React实现了一个浏览器无关的事件和DOM系统，原因是为了性能和跨浏览器的兼容性。我们利用这个机会来清理了一些浏览器DOM实现的一些粗糙边缘。
 
 * 所有的 DOM properties 和 attributes (包括事件处理器) 都应该 camelCased 来保持和标准的 JavaScript 风格一致.我们在这里故意打破了这个规范是因为规范是不一致的. **然而**,`data-*` 和 `aria-*` attributes [conform to the specs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#data-*) 应该只 lower-cased.
 * `style` attribute 接受 camelCased properties 的JavaScript对象 而不是一个CSS字符串. 这保持了和 DOM `style` JavaScript property 的一致,更有效率,而且阻止了XSS安全漏洞.
