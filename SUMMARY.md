@@ -70,5 +70,5 @@
    * [this.props.children undefined](tips/17-children-undefined.md)
    * [Use React with Other Libraries](tips/18-use-react-with-other-libraries.md)
    * [Dangerously Set innerHTML](tips/19-dangerously-set-inner-html.md)
-* 致谢
+* [致谢](acknowledgements.md)
 
