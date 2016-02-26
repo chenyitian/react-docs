@@ -37,7 +37,7 @@
        * [浅比较](docs/10.10-shallow-compare.md)
    * [Advanced Performance](docs/11-advanced-performance.md)
    * [Context](docs/12-context.md)
-* 参考
+* [参考](docs/reference.md)
    * [Top-Level API](docs/ref-01-top-level-api.md)
    * [组件 API](docs/ref-02-component-api.md)
    * [组件的规范和生命周期](docs/ref-03-component-specs.md)
