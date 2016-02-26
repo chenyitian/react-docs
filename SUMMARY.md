@@ -48,7 +48,7 @@
    * [Reconciliation](docs/ref-08-reconciliation.md)
    * [Web Components](docs/ref-09-webcomponents.md)
    * [React (虚拟) DOM 术语](docs/ref-10-glossary.md)
-* FLUX
+* [FLUX](docs/flux.md)
    * [概览](docs/flux-overview.md)
    * [TodoMVC 教程](docs/flux-todo-list.md)
 * TIPS
