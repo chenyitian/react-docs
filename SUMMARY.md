@@ -10,7 +10,7 @@
    * [视频](docs/videos.md)
    * [补充工具](docs/complementary-tools.md)
    * [示例](docs/examples.md)
-* 手册
+* [手册](docs/guides.md)
    * [为什么使用 React?](docs/01-why-react.md)
    * [显示数据](docs/02-displaying-data.md)
        * [深入 JSX](docs/02.1-jsx-in-depth.md)
