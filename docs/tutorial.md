@@ -6,27 +6,27 @@
 
 * 一个所有评论的视图
 * 一个用于提交评论的表单
-* 为你提供制定后台的挂钩(Hooks)
+* 为你提供制定后台的挂钩（Hooks）
 
 同时也会有一些简洁的功能：
 
 * **优化的评论：** 评论在它们保存到服务器之前就显示在列表里,所以感觉很快。
 * **实时更新：** 其他用户的评论被实时浮现到评论中。
-* **Markdown格式化：** 用户可以用Markdown格式化它们的文字。
+* **Markdown 格式化：** 用户可以用 Markdown 格式化它们的文字。
 
 ### 想要跳过所有内容，只查看源代码？
 
-[全在 GitHub .](https://github.com/reactjs/react-tutorial)
+[全在 GitHub。](https://github.com/reactjs/react-tutorial)
 
 ### 运行服务器
 
 为了开始本教程，我们将要需要一个运行着的服务器。这将是我们纯粹用来获取和保存数据的伺服终端。为了让这尽可能的容易，我们已经用许多不同的语言编写了简单的服务器，它正好完成我们需要的事。    **你可以[查看源代码](https://github.com/reactjs/react-tutorial/) 或者 [下载 zip 文件](https://github.com/reactjs/react-tutorial/archive/master.zip) 包括了所有你开始学习需要的东西**
 
-为了简单起见，我们将要运行的服务器使用 `JSON` 文件作为数据库。你不会在生产环境运行这个，但是它让我们更容易模拟使用一个API时你可能会做的事。一旦你启动服务器，它将会支持我们的API终端,同时也将伺服我们需要的静态页面。
+为了简单起见，我们将要运行的服务器使用 `JSON` 文件作为数据库。你不会在生产环境运行这个，但是它让我们更容易模拟使用一个 API 时你可能会做的事。一旦你启动服务器，它将会支持我们的 API 终端，同时也将伺服我们需要的静态页面。
 
 ### 开始
 
-对于此教程,我们将使它尽可能的容易。被包括在上面讨论的服务器包里的是一个我们将在其中工作的 HTML 文件。在你最喜欢的编辑器里打开 `public/index.html`。它应该看起来像这样 （可能有一些小的不同，稍后我们将添加一个额外的 `<script>` 标签）：
+对于此教程，我们将使它尽可能的容易。被包括在上面讨论的服务器包里的是一个我们将在其中工作的 HTML 文件。在你最喜欢的编辑器里打开 `public/index.html`。它应该看起来像这样 （可能有一些小的不同，稍后我们将添加一个额外的 `<script>` 标签）：
 
 ```html
 <!-- index.html -->
@@ -55,7 +55,7 @@
 
 > 注意：
 >
-> 我们在这里引入 jQuery 是因为我们想简化我们未来的 ajax 请求，但这对React的正常工作 **不是** 必要的。
+> 我们在这里引入 jQuery 是因为我们想简化我们未来的 ajax 请求，但这对 React 的正常工作 **不是** 必要的。
 
 ### 你的第一个组件
 
@@ -87,11 +87,11 @@ ReactDOM.render(
 );
 ```
 
-注意原生的HTML元素以小写开头，而制定的 React 类以大写开头。
+注意原生的 HTML 元素以小写开头，而制定的 React 类以大写开头。
 
 #### JSX 语法
 
-首先你会注意到你的 JavaScript 中 XML 式的语法。我们有一个简单的预编译器，将这种语法糖转换成单纯的 JavaScript ：
+首先你会注意到你的 JavaScript 中 XML 式的语法。我们有一个简单的预编译器，将这种语法糖转换成单纯的 JavaScript：
 
 ```javascript
 // tutorial1-raw.js
@@ -110,13 +110,13 @@ ReactDOM.render(
 );
 ```
 
-它的使用是可选的，但是我们发现 JSX 语法比单纯的 JavaScript 更加容易使用。阅读更多关于[JSX 语法的文章](02.1-jsx-in-depth.md)。
+它的使用是可选的，但是我们发现 JSX 语法比单纯的 JavaScript 更加容易使用。阅读更多关于 [JSX 语法的文章](02.1-jsx-in-depth.md)。
 
-#### What's going on
+#### 发生了什么
 
-我们在一个 JavaScript 对象中传递一些方法到 `React.createClass()` 来创建一个新的React组件。这些方法中最重要的是 `render`，该方法返回一颗 React 组件树，这棵树最终将会渲染成 HTML。
+我们在一个 JavaScript 对象中传递一些方法到 `React.createClass()` 来创建一个新的 React 组件。这些方法中最重要的是 `render`，该方法返回一颗 React 组件树，这棵树最终将会渲染成 HTML。
 
-这个 `<div>` 标签不是真实的DOM节点；他们是 React `div` 组件的实例化。你可以把这些看做是React知道如何处理的标记或者是一些数据 。React 是**安全的**。我们不生成 HTML 字符串，因此XSS防护是默认特性。
+这个 `<div>` 标签不是真实的 DOM 节点；他们是 React `div` 组件的实例化。你可以把这些看做是 React 知道如何处理的标记或者是一些数据。React 是**安全的**。我们不生成 HTML 字符串，因此 XSS 防护是默认特性。
 
 你没有必要返回基本的 HTML。你可以返回一个你（或者其他人）创建的组件树。这就使 React **组件化**：一个可维护前端的关键原则。
 
@@ -170,7 +170,7 @@ var CommentBox = React.createClass({
 
 ### 使用 props
 
-让我们创建 `Comment` 组件，它将依赖于从父级传来的数据。从父级传来的数据在子组件里作为 '属性' 可供使用。 这些 '属性' 可以通过 `this.props` 访问。使用属性，我们将能读取从 `CommentList` 传递给 `Comment` 的数据，并且渲染一些标记：
+让我们创建 `Comment` 组件，它将依赖于从父级传来的数据。从父级传来的数据在子组件里作为‘属性’ 可供使用。 这些‘属性’可以通过 `this.props` 访问。使用属性，我们将能读取从 `CommentList` 传递给 `Comment` 的数据，并且渲染一些标记：
 
 ```javascript
 // tutorial4.js
