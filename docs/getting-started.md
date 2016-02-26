@@ -7,9 +7,9 @@
  * **[React JSFiddle](https://jsfiddle.net/reactjs/69z2wepo/)**
  * [React JSFiddle without JSX](https://jsfiddle.net/reactjs/5vjqabv3/)
 
-## 通过npm使用React
+## 通过 npm 使用 React
 
-我们建议在React中使用CommonJS模块系统，比如[browserify](http://browserify.org/)或[webpack](https://webpack.github.io/)。使用[`react`](https://www.npmjs.com/package/react)和[`react-dom`](https://www.npmjs.com/package/react-dom) npm包。
+我们建议在 React 中使用 CommonJS 模块系统，比如 [browserify](http://browserify.org/) 或 [webpack](https://webpack.github.io/)。使用 [`react`](https://www.npmjs.com/package/react) 和 [`react-dom`](https://www.npmjs.com/package/react-dom) npm 包。
 
 ```js
 // main.js
