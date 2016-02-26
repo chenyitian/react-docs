@@ -1,4 +1,4 @@
-# 特殊的 Non-DOM Attributes
+# 特殊的Non-DOM Attributes
 
 和 [DOM 的不同之处](ref-06-dom-differences.md)相比, React 提供了一些不存在于DOM的 attributes .
 
