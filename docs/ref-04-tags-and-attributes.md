@@ -1,6 +1,6 @@
-# Tags和属性
+# Tags 和属性
 
-## 支持的Tags
+## 支持的 Tags
 
 React试着支持所有常见的元素.如果你需要一个没有列在这里的元素,请 [file an issue](https://github.com/facebook/react/issues/new).
 
