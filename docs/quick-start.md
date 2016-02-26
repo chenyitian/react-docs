@@ -1,5 +1,5 @@
 # 快速开始
 
- * [新手入门](docs/getting-started.md)
- * [教程](docs/tutorial.md)
- * [React 编程思想](docs/thinking-in-react.md)
+ * [新手入门](getting-started.md)
+ * [教程](tutorial.md)
+ * [React 编程思想](thinking-in-react.md)
