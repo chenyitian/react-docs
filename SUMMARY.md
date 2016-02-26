@@ -39,7 +39,7 @@
    * [Context](docs/12-context.md)
 * [参考](docs/reference.md)
    * [Top-Level API](docs/ref-01-top-level-api.md)
-   * [组件 API](docs/ref-02-component-api.md)
+   * [组件API](docs/ref-02-component-api.md)
    * [组件的规范和生命周期](docs/ref-03-component-specs.md)
    * [Tags和属性](docs/ref-04-tags-and-attributes.md)
    * [事件系统](docs/ref-05-events.md)
