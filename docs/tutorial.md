@@ -188,7 +188,7 @@ var Comment = React.createClass({
 });
 ```
 
-在 JSX 中,通过将 JavaScript 表达式放在大括号中（作为属性或者子节点）,你可以把文本或者 React 组件放置到树中。我们以 `this.props` 的 keys 访问传递给组件的命名属性，以 `this.props.children` 访问任何嵌套的元素。
+在 JSX 中,通过将 JavaScript 表达式放在大括号中（作为属性或者子节点），你可以把文本或者 React 组件放置到树中。我们以 `this.props` 的 keys 访问传递给组件的命名属性，以 `this.props.children` 访问任何嵌套的元素。
 
 ### 组件的属性
 
@@ -208,13 +208,13 @@ var CommentList = React.createClass({
 });
 ```
 
-注意，我们已经从 `CommentList`  组件传递了一些数据到 `Comment` 组件。例如，我们传递了 *Pete Hunt* （通过属性）和 *This is one comment* (通过 XML-风格的子节点)给第一个 `Comment`。如上面提到的那样， `Comment` 组件将会通过 `this.props.author` 和 `this.props.children` 访问 这些 '属性'。
+注意，我们已经从 `CommentList` 组件传递了一些数据到 `Comment` 组件。例如，我们传递了 *Pete Hunt* （通过属性）和 *This is one comment* (通过 XML- 风格的子节点)给第一个 `Comment`。如上面提到的那样， `Comment` 组件将会通过 `this.props.author` 和 `this.props.children` 访问这些‘属性’。
 
 ### 添加 Markdown
 
 Markdown 是一种简单的内联格式化你的文字的方法。例如，用星号包围文本将会使其强调突出。
 
-首先，添加第三方库 **marked** 到你的应用。这是一个JavaScript库，接受 Markdown 文本并且转换为原始的 HTML。这需要在你的头部有一个 script 标签（那个我们已经在 React 操场上包含了的标签）：
+首先，添加第三方库 **marked** 到你的应用。这是一个 JavaScript 库，接受 Markdown 文本并且转换为原始的 HTML。这需要在你的头部有一个 script 标签（那个我们已经在 React 操场上包含了的标签）：
 
 ```html{9}
 <!-- index.html -->
