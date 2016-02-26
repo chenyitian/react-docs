@@ -51,7 +51,7 @@
 * [FLUX](docs/flux.md)
    * [概览](docs/flux-overview.md)
    * [TodoMVC 教程](docs/flux-todo-list.md)
-* TIPS
+* [TIPS](tips/index.md)
    * [Introduction](tips/01-introduction.md)
    * [Inline Styles](tips/02-inline-styles.md)
    * [If-Else in JSX](tips/03-if-else-in-JSX.md)
