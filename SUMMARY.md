@@ -44,7 +44,7 @@
    * [Tags和属性](docs/ref-04-tags-and-attributes.md)
    * [事件系统](docs/ref-05-events.md)
    * [DOM区别](docs/ref-06-dom-differences.md)
-   * [特殊的 Non-DOM Attributes](docs/ref-07-special-non-dom-attributes.md)
+   * [特殊的Non-DOM Attributes](docs/ref-07-special-non-dom-attributes.md)
    * [Reconciliation](docs/ref-08-reconciliation.md)
    * [Web Components](docs/ref-09-webcomponents.md)
    * [React (虚拟) DOM 术语](docs/ref-10-glossary.md)
