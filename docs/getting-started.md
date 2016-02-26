@@ -2,7 +2,7 @@
 
 ## JSFiddle
 
-开始学习React的最简单的方法是用下面JSFiddle的Hello World：
+开始学习 React 的最简单的方法是用下面 JSFiddle 的 Hello World：
 
  * **[React JSFiddle](https://jsfiddle.net/reactjs/69z2wepo/)**
  * [React JSFiddle without JSX](https://jsfiddle.net/reactjs/5vjqabv3/)
