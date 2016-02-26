@@ -22,14 +22,14 @@ ReactDOM.render(
 );
 ```
 
-要用browserify安装React DOM和构建你的包。
+要用 browserify 安装 React DOM 和构建你的包。
 
 ```sh
 $ npm install --save react react-dom babelify babel-preset-react
 $ browserify -t [ babelify --presets [ react ] ] main.js -o bundle.js
 ```
 
-要用webpack安装React DOM和构建你的包：  
+要用 webpack 安装 React DOM 和构建你的包：  
 
 ```sh
 $ npm install --save react react-dom babel-preset-react
@@ -38,12 +38,12 @@ $ webpack
 
 > 注意:
 >
-> 如果你正在使用ES2015, 你将要使用`babel-preset-es2015`包.
+> 如果你正在使用 ES2015，你将要使用 `babel-preset-es2015` 包。
 
 
-## 不用npm的快速开始
+## 不用 npm 的快速开始
 
-如果你现在还没准备要使用npm,你可以下载这个已经包含了预构建的React和React DOM拷贝的入门套件. 
+如果你现在还没准备要使用 npm，你可以下载这个已经包含了预构建的 React 和 React DOM 拷贝的入门套件。 
 
 <div class="buttons-unit downloads">
   <a href="/react/downloads/react-0.14.7.zip" class="button">
@@ -51,7 +51,7 @@ $ webpack
   </a>
 </div>
 
-在入门教程包的根目录，创建一个含有如下代码的`helloworld.html`。
+在入门教程包的根目录，创建一个含有如下代码的 `helloworld.html`。
 
 ```html
 <!DOCTYPE html>
@@ -75,11 +75,11 @@ $ webpack
 </html>
 ```
 
-在JavaScript代码里写着XML格式的代码称为JSX；可以去[JSX语法](02.1-jsx-in-depth.md)里学习更多JSX相关的知识。为了把JSX转成标准的JavaScript，我们用 `<script type="text/babel">` 标签，并引入Babel来完成在浏览器里的代码转换。
+在 JavaScript 代码里写着 XML 格式的代码称为 JSX；可以去 [JSX 语法](02.1-jsx-in-depth.md)里学习更多 JSX 相关的知识。为了把 JSX 转成标准的 JavaScript，我们用 `<script type="text/babel">` 标签，并引入 Babel 来完成在浏览器里的代码转换。
 
 ### 分离文件
 
-你的React JSX代码文件可以写在另外的文件里。新建下面的`src/helloworld.js`。
+你的 React JSX 代码文件可以写在另外的文件里。新建下面的 `src/helloworld.js`。
 
 ```javascript
 ReactDOM.render(
@@ -88,24 +88,24 @@ ReactDOM.render(
 );
 ```
 
-然后在`helloworld.html`引用该文件：
+然后在 `helloworld.html` 引用该文件：
 
 ```html
 <script type="text/babel" src="src/helloworld.js"></script>
 ```
 
-注意一些浏览器（比如Chrome）会在使用HTTP以外的协议加载文件时失败。
+注意一些浏览器（比如 Chrome）会在使用 HTTP 以外的协议加载文件时失败。
 
 ### 离线转换
 
-先安装[Babel](http://babeljs.io/)命令行工具（需要[npm](https://www.npmjs.com/)）：
+先安装 [Babel](http://babeljs.io/) 命令行工具（需要 [npm](https://www.npmjs.com/)）：
 
 ```
 npm install --global babel-cli
 npm install babel-preset-react
 ```
 
-然后把你的`src/helloworld.js`文件转成标准的JavaScript：
+然后把你的 `src/helloworld.js` 文件转成标准的 JavaScript：
 
 ```
 babel --presets react src --watch --out-dir build
@@ -113,9 +113,9 @@ babel --presets react src --watch --out-dir build
 
 > 注意:
 >
-> 如果你正在使用ES2015, 你将需要使用`babel-preset-es2015`包。
+> 如果你正在使用 ES2015, 你将需要使用 `babel-preset-es2015` 包。
 
-`build/helloworld.js`会在你对文件进行修改时自动生成。阅读[Babel CLI文档](http://babeljs.io/docs/usage/cli/)了解高级用法。
+`build/helloworld.js` 会在你对文件进行修改时自动生成。阅读 [Babel CLI 文档](http://babeljs.io/docs/usage/cli/) 了解高级用法。
 
 ```javascript
 ReactDOM.render(
@@ -124,7 +124,7 @@ ReactDOM.render(
 );
 ```
 
-对照下面更新你的HTML代码
+对照下面更新你的 HTML 代码
 
 ```html
 <!DOCTYPE html>
@@ -145,8 +145,8 @@ ReactDOM.render(
 
 ## 下一步
 
-去看看[入门教程](tutorial.md)和入门教程包`examples`目录下的其它例子学习更多。
+去看看[入门教程](tutorial.md)和入门教程包 `examples` 目录下的其它例子学习更多。
 
-我们还有一个社区开发者共建的Wiki：[workflows, UI-components, routing, data management etc.](https://github.com/facebook/react/wiki/Complementary-Tools)
+我们还有一个社区开发者共建的 Wiki：[workflows, UI-components, routing, data management 等](https://github.com/facebook/react/wiki/Complementary-Tools)
 
-恭喜你，欢迎来到React的世界。
+恭喜你，欢迎来到 React 的世界。
