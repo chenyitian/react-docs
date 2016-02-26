@@ -1,4 +1,4 @@
 # FLUX
 
- * [概览](docs/flux-overview.md)
- * [TodoMVC 教程](docs/flux-todo-list.md)
+ * [概览](flux-overview.md)
+ * [TodoMVC 教程](flux-todo-list.md)
