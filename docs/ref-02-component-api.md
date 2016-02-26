@@ -1,4 +1,4 @@
-# 组件API
+# 组件 API
 
 ## React.Component
 
