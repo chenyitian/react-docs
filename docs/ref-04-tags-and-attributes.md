@@ -6,7 +6,7 @@ React 试着支持所有常见的元素。如果你需要一个没有列在这�
 
 ### HTML 元素
 
-下面的HTML是被支持的:
+下面的 HTML 是被支持的:
 
 ```
 a abbr address area article aside audio b base bdi bdo big blockquote body br
