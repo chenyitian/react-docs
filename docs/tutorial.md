@@ -338,7 +338,7 @@ var CommentList = React.createClass({
 
 ### 从服务器获取数据
 
-让我们用一些来自服务器的动态数据替换硬编码的数据。我们将移除数据的 prop，用获取数据的URL来替换它：
+让我们用一些来自服务器的动态数据替换硬编码的数据。我们将移除数据的 prop，用获取数据的 URL 来替换它：
 
 ```javascript{3}
 // tutorial11.js
