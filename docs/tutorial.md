@@ -151,7 +151,7 @@ var CommentForm = React.createClass({
 
 接着，更新 `CommentBox` 以使用这些新的组件：
 
-```javascript
+```javascript {6-8}
 // tutorial3.js
 var CommentBox = React.createClass({
   render: function() {
