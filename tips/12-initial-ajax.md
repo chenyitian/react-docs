@@ -6,7 +6,7 @@ When fetching data asynchronously, use `componentWillUnmount` to cancel any outs
 
 This example fetches the desired Github user's latest gist:
 
-```js
+```javascript
 var UserGist = React.createClass({
   getInitialState: function() {
     return {
