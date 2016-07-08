@@ -11,7 +11,7 @@
 
 我们建议在 React 中使用 CommonJS 模块系统，比如 [browserify](http://browserify.org/) 或 [webpack](https://webpack.github.io/)。使用 [`react`](https://www.npmjs.com/package/react) 和 [`react-dom`](https://www.npmjs.com/package/react-dom) npm 包。
 
-```js
+```javascript
 // main.js
 var React = require('react');
 var ReactDOM = require('react-dom');
@@ -81,7 +81,7 @@ $ webpack
 
 你的 React JSX 代码文件可以写在另外的文件里。新建下面的 `src/helloworld.js`。
 
-```js
+```javascript
 ReactDOM.render(
   <h1>Hello, world!</h1>,
   document.getElementById('example')
