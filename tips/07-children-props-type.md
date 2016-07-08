@@ -2,7 +2,7 @@
 
 Usually, a component's children (`this.props.children`) is an array of components:
 
-```js
+```javascript
 var GenericWrapper = React.createClass({
   componentDidMount: function() {
     console.log(Array.isArray(this.props.children)); // => true
@@ -21,7 +21,7 @@ ReactDOM.render(
 
 However, when there is only a single child, `this.props.children` will be the single child component itself _without the array wrapper_. This saves an array allocation.
 
-```js
+```javascript
 var GenericWrapper = React.createClass({
   componentDidMount: function() {
     console.log(Array.isArray(this.props.children)); // => false
