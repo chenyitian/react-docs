@@ -5,7 +5,7 @@ For parent-child communication, simply [pass props](../docs/04-multiple-componen
 For child-parent communication:
 Say your `GroceryList` component has a list of items generated through an array. When a list item is clicked, you want to display its name:
 
-```js
+```javascript
 var handleClick = function(i, props) {
   console.log('You clicked: ' + props.items[i]);
 }
