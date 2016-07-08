@@ -15,7 +15,7 @@ React 许多优秀的部分之一，是它使得你在构建 app 的过程中不
 
 我们的 JSON API 返回一些看起来像这样的数据：
 
-```
+```json
 [
   {category: "Sporting Goods", price: "$49.99", stocked: true, name: "Football"},
   {category: "Sporting Goods", price: "$9.99", stocked: true, name: "Baseball"},
