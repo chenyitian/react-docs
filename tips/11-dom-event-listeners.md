@@ -6,7 +6,7 @@
 
 Try to resize the window:
 
-```js
+```javascript
 var Box = React.createClass({
   getInitialState: function() {
     return {windowWidth: window.innerWidth};
