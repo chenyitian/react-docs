@@ -75,7 +75,9 @@ React 组件非常简单。你可以认为它们就是简单的函数，接受 `
 
 **JSX 让你可以用 HTML 语法去写 JavaScript 函数调用** 为了在 React 生成一个链接，通过纯 JavaScript 你可以这么写：
 
-`React.createElement('a', {href: 'https://facebook.github.io/react/'}, 'Hello React!')`。
+`javascript
+React.createElement('a', {href: 'https://facebook.github.io/react/'}, 'Hello React!')
+`。
 
 通过 JSX 这就变成了
 
