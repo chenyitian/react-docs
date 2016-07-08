@@ -2,7 +2,7 @@
 
 You don't have to go full React. The component [lifecycle events](../docs/ref-03-component-specs.md#lifecycle-methods), especially `componentDidMount` and `componentDidUpdate`, are good places to put your other libraries' logic.
 
-```js
+```javascript
 var App = React.createClass({
   getInitialState: function() {
     return {myModel: new myBackboneModel({items: [1, 2, 3]})};
