@@ -2,7 +2,7 @@
 
 `if-else` statements don't work inside JSX. This is because JSX is just syntactic sugar for function calls and object construction. Take this basic example:
 
-```js
+```javascript
 // This JSX:
 ReactDOM.render(<div id="msg">Hello World!</div>, mountNode);
 
@@ -12,7 +12,7 @@ ReactDOM.render(React.createElement("div", {id:"msg"}, "Hello World!"), mountNod
 
 This means that `if` statements don't fit in. Take this example:
 
-```js
+```javascript
 // This JSX:
 <div id={if (condition) { 'msg' }}>Hello World!</div>
 
