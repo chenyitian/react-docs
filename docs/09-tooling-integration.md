@@ -32,7 +32,7 @@
 
 这里是一个要使用ES2015 语法和 React 你该怎样做的例子：
 
-```
+```sh
 npm install babel-preset-es2015 babel-preset-react
 babel --presets es2015,react --watch src/ --out-dir lib/
 ```
@@ -41,7 +41,7 @@ babel --presets es2015,react --watch src/ --out-dir lib/
 
 输出的例子：
 
-```
+```sh
 $ cat test.jsx
 var HelloMessage = React.createClass({
   render: function() {
