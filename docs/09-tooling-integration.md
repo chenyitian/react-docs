@@ -44,6 +44,7 @@ babel --presets es2015,react --watch src/ --out-dir lib/
 ```sh
 $ cat test.jsx
 ```
+
 ```javascript
 var HelloMessage = React.createClass({
   render: function() {
@@ -52,7 +53,13 @@ var HelloMessage = React.createClass({
 });
 
 ReactDOM.render(<HelloMessage name="John" />, mountNode);
+```
+
+```sh
 $ babel test.jsx
+```
+
+```javascript
 "use strict";
 
 var HelloMessage = React.createClass({
