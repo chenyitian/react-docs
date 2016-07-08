@@ -4,19 +4,19 @@ Here's how `false` renders in different situations:
 
 Renders as `id="false"`:
 
-```js
+```javascript
 ReactDOM.render(<div id={false} />, mountNode);
 ```
 
 String `"false"` as input value:
 
-```js
+```javascript
 ReactDOM.render(<input value={false} />, mountNode);
 ```
 
 No child:
 
-```js
+```javascript
 ReactDOM.render(<div>{false}</div>, mountNode);
 ```
 
