@@ -100,14 +100,14 @@ ReactDOM.render(
 
 先安装 [Babel](http://babeljs.io/) 命令行工具（需要 [npm](https://www.npmjs.com/)）：
 
-```
+```sh
 npm install --global babel-cli
 npm install babel-preset-react
 ```
 
 然后把你的 `src/helloworld.js` 文件转成标准的 JavaScript：
 
-```
+```sh
 babel --presets react src --watch --out-dir build
 ```
 
