@@ -10,7 +10,7 @@ Whenever possible, compute values on-the-fly to ensure that they don't get out o
 
 **Bad example:**
 
-```js
+```javascript
 var MessageBox = React.createClass({
   getInitialState: function() {
     return {nameWithQualifier: 'Mr. ' + this.props.name};
@@ -26,7 +26,7 @@ ReactDOM.render(<MessageBox name="Rogers"/>, mountNode);
 
 Better:
 
-```js
+```javascript
 var MessageBox = React.createClass({
   render: function() {
     return <div>{'Mr. ' + this.props.name}</div>;
@@ -40,7 +40,7 @@ ReactDOM.render(<MessageBox name="Rogers"/>, mountNode);
 
 However, it's **not** an anti-pattern if you make it clear that the prop is only seed data for the component's internally-controlled state:
 
-```js
+```javascript
 var Counter = React.createClass({
   getInitialState: function() {
     // naming it initialX clearly indicates that the only purpose
