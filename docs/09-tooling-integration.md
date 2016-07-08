@@ -43,6 +43,8 @@ babel --presets es2015,react --watch src/ --out-dir lib/
 
 ```sh
 $ cat test.jsx
+```
+```javascript
 var HelloMessage = React.createClass({
   render: function() {
     return <div>Hello {this.props.name}</div>;
