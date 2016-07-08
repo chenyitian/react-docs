@@ -6,7 +6,7 @@ Our design philosophy is that it should be “easy” to make things safe, and d
 
 After fully understanding the security ramifications and properly sanitizing the data, create a new object containing only the key `__html` and your sanitized data as the value.  Here is an example using the JSX syntax:
 
-```js
+```javascript
 function createMarkup() { return {__html: 'First &middot; Second'}; };
 <div dangerouslySetInnerHTML={createMarkup()} />
 ```
