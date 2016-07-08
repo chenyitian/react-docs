@@ -194,7 +194,7 @@ var Comment = React.createClass({
 
 既然我们已经定义了 `Comment` 组件，我们将要传递作者名和评论文字给它。这允许我们为每个评论重用相同的代码。现在让我们在我们的 `CommentList` 里添加一些评论。
 
-```javascript{6-7}
+```javascript
 // tutorial5.js
 var CommentList = React.createClass({
   render: function() {
