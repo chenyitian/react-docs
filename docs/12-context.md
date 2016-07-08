@@ -52,7 +52,7 @@ var MessageList = React.createClass({
 
 在这里例子里,我们手工穿透一个 `color` prop 以便于恰当格式化 `Button` 和 `Message` 组件.主题是一个很好的例子,当你可能想整个子树都可以访问一部分信息时(比如color). 使用 context 我们可以自动传过这个树:
 
-```javascript{2-4,7,18,25-30,33}
+```javascript
 var Button = React.createClass({
   contextTypes: {
     color: React.PropTypes.string
