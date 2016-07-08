@@ -81,7 +81,7 @@ $ webpack
 
 你的 React JSX 代码文件可以写在另外的文件里。新建下面的 `src/helloworld.js`。
 
-```javascript
+```js
 ReactDOM.render(
   <h1>Hello, world!</h1>,
   document.getElementById('example')
