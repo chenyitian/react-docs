@@ -4,7 +4,7 @@ There's another (uncommon) way of [communicating between components](14-communic
 
 Say a list of todos, which upon clicking get removed. If there's only one unfinished todo left, animate it:
 
-```js
+```javascript
 var Todo = React.createClass({
   render: function() {
     return <div onClick={this.props.onClick}>{this.props.title}</div>;
