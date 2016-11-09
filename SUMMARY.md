@@ -22,7 +22,7 @@
    * [传递 Props](docs/06-transferring-props.md)
    * [表单组件](docs/07-forms.md)
    * [与浏览器协作](docs/08-working-with-the-browser.md)
-       * [对组件的 refs](docs/08.1-more-about-refs.md)
+       * [关于Refs的更多内容](docs/08.1-more-about-refs.md)
    * [工具集成](docs/09-tooling-integration.md)
    * [插件](docs/10-addons.md)
        * [动画](docs/10.1-animation.md)
